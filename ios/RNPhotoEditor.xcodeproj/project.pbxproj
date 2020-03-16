@@ -7,27 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40137CF49C59930DA23C79A9 /* Pods_RNPhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DD4AC0F5A94CE9A56A7D23 /* Pods_RNPhotoEditor.framework */; };
+		03C7402E9FB0407EEE74E964 /* Pods_RNPhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1663D4A586234F2D88205CA7 /* Pods_RNPhotoEditor.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNPhotoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNPhotoEditor.m */; };
-		CEA2B04A2144EDA200D21235 /* iOSPhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2B0472144EDA000D21235 /* iOSPhotoEditor.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CEA2B0462144EDA000D21235 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEA2B0412144ED9F00D21235 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3953F4E53224764A2EFC804C7A5E45C0;
-			remoteInfo = iOSPhotoEditor;
-		};
-		CEA2B0482144EDA000D21235 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEA2B0412144ED9F00D21235 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0D0AA7B71413A07FD24B6841A79DC55;
-			remoteInfo = "Pods-RNPhotoEditor";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -42,13 +24,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05DA841703B4CCFEE54B14CD /* Pods-RNPhotoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPhotoEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPhotoEditor/Pods-RNPhotoEditor.debug.xcconfig"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNPhotoEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPhotoEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4715A5625794BA3A83A872C5 /* Pods-RNPhotoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPhotoEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPhotoEditor/Pods-RNPhotoEditor.release.xcconfig"; sourceTree = "<group>"; };
-		96DD4AC0F5A94CE9A56A7D23 /* Pods_RNPhotoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNPhotoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1663D4A586234F2D88205CA7 /* Pods_RNPhotoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNPhotoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5806ECDC6FC945EFA9412792 /* Pods-RNPhotoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPhotoEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPhotoEditor/Pods-RNPhotoEditor.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNPhotoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPhotoEditor.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNPhotoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPhotoEditor.m; sourceTree = "<group>"; };
-		CEA2B0412144ED9F00D21235 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		F9A26205A9E8473DD22A42B9 /* Pods-RNPhotoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPhotoEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPhotoEditor/Pods-RNPhotoEditor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA2B04A2144EDA200D21235 /* iOSPhotoEditor.framework in Frameworks */,
-				40137CF49C59930DA23C79A9 /* Pods_RNPhotoEditor.framework in Frameworks */,
+				03C7402E9FB0407EEE74E964 /* Pods_RNPhotoEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,26 +66,16 @@
 		956042663EE01F6152091375 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEA2B0412144ED9F00D21235 /* Pods.xcodeproj */,
-				96DD4AC0F5A94CE9A56A7D23 /* Pods_RNPhotoEditor.framework */,
+				1663D4A586234F2D88205CA7 /* Pods_RNPhotoEditor.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CEA2B0422144ED9F00D21235 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEA2B0472144EDA000D21235 /* iOSPhotoEditor.framework */,
-				CEA2B0492144EDA000D21235 /* Pods_RNPhotoEditor.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E6FAD135F551FA36DB423079 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05DA841703B4CCFEE54B14CD /* Pods-RNPhotoEditor.debug.xcconfig */,
-				4715A5625794BA3A83A872C5 /* Pods-RNPhotoEditor.release.xcconfig */,
+				F9A26205A9E8473DD22A42B9 /* Pods-RNPhotoEditor.debug.xcconfig */,
+				5806ECDC6FC945EFA9412792 /* Pods-RNPhotoEditor.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -150,40 +120,18 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CEA2B0422144ED9F00D21235 /* Products */;
-					ProjectRef = CEA2B0412144ED9F00D21235 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNPhotoEditor */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CEA2B0472144EDA000D21235 /* iOSPhotoEditor.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = iOSPhotoEditor.framework;
-			remoteRef = CEA2B0462144EDA000D21235 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEA2B0492144EDA000D21235 /* Pods_RNPhotoEditor.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_RNPhotoEditor.framework;
-			remoteRef = CEA2B0482144EDA000D21235 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		663DC7DF621CC8E1AD213107 /* [CP] Check Pods Manifest.lock */ = {
@@ -255,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -301,8 +249,12 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05DA841703B4CCFEE54B14CD /* Pods-RNPhotoEditor.debug.xcconfig */;
+			baseConfigurationReference = F9A26205A9E8473DD22A42B9 /* Pods-RNPhotoEditor.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -319,8 +271,12 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4715A5625794BA3A83A872C5 /* Pods-RNPhotoEditor.release.xcconfig */;
+			baseConfigurationReference = 5806ECDC6FC945EFA9412792 /* Pods-RNPhotoEditor.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
